@@ -2,7 +2,7 @@ name: Tests
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
     paths:
       - "src/**"
       - "tests/**"
@@ -11,7 +11,7 @@ on:
       - ".pre-commit-config.yaml"
       - ".github/workflows/tests.yml"
   pull_request:
-    branches: [main]
+    branches: [ main ]
     paths:
       - "src/**"
       - "tests/**"
@@ -19,6 +19,7 @@ on:
       - "uv.lock"
       - ".pre-commit-config.yaml"
       - ".github/workflows/tests.yml"
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
