@@ -1,0 +1,14 @@
+{
+  "bookingid": 2518,
+  "booking": {
+    "firstname": "Alexis",
+    "lastname": "Simmons",
+    "totalprice": 935,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-06-27",
+      "checkout": "2026-06-28"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

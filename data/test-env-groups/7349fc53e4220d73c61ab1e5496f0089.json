@@ -1,1 +1,1 @@
-{"id":"7349fc53e4220d73c61ab1e5496f0089","fullName":"tests.booking.test_api_crud#test_should_reject_deleting_nonexisting_booking","name":"test_should_reject_deleting_nonexisting_booking","status":"passed","testResultsByEnv":{"default":"33ca40dcbd92e932bb0c56a081670544"}}
+{"id":"7349fc53e4220d73c61ab1e5496f0089","fullName":"tests.booking.test_api_crud#test_should_reject_deleting_nonexisting_booking","name":"test_should_reject_deleting_nonexisting_booking","status":"passed","testResultsByEnv":{"default":"d313bed1d922be3753320480c6658b95"}}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Cindy",
+  "lastname": "Gibson",
+  "totalprice": 1260,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-23",
+    "checkout": "2026-07-28"
+  },
+  "additionalneeds": "Lunch"
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Nina",
+  "lastname": "Morrison",
+  "totalprice": 1689,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-01",
+    "checkout": "2026-07-03"
+  },
+  "additionalneeds": "Lunch"
+}

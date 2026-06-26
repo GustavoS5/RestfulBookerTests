@@ -1,0 +1,14 @@
+{
+  "bookingid": 2511,
+  "booking": {
+    "firstname": "Laura",
+    "lastname": "Ortiz",
+    "totalprice": 1784,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-02",
+      "checkout": "2026-07-08"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

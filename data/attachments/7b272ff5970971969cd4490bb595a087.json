@@ -1,0 +1,11 @@
+{
+  "firstname": "Robyn",
+  "lastname": "Jenkins",
+  "totalprice": 1577,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-07-20",
+    "checkout": "2026-07-29"
+  },
+  "additionalneeds": "Late checkout"
+}

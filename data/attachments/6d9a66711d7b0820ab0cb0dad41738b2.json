@@ -1,0 +1,14 @@
+{
+  "bookingid": 2523,
+  "booking": {
+    "firstname": "Krystal",
+    "lastname": "Johnson",
+    "totalprice": 1327,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-11",
+      "checkout": "2026-07-18"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

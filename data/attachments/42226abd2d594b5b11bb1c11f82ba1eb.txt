@@ -1,0 +1,6 @@
+INFO     restful_booker.clients.base_client:base_client.py:84 → POST /booking
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 200
+INFO     restful_booker.clients.base_client:base_client.py:84 → PUT /booking/2511
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 200
+INFO     restful_booker.clients.base_client:base_client.py:84 → DELETE /booking/2511
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 201

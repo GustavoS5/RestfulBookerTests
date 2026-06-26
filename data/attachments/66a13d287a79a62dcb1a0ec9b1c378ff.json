@@ -1,0 +1,11 @@
+{
+  "firstname": "Daniel",
+  "lastname": "Escobar",
+  "totalprice": 1413,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-07-25",
+    "checkout": "2026-07-26"
+  },
+  "additionalneeds": "Late checkout"
+}

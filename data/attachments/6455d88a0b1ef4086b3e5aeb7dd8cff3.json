@@ -1,0 +1,14 @@
+{
+  "bookingid": 2505,
+  "booking": {
+    "firstname": "QueryTest",
+    "lastname": "Mcdaniel",
+    "totalprice": 1345,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-03",
+      "checkout": "2026-07-06"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

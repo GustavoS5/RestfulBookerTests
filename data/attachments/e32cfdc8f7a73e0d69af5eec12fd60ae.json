@@ -1,0 +1,11 @@
+{
+  "firstname": 123,
+  "lastname": true,
+  "totalprice": "not a number",
+  "depositpaid": "not a boolean",
+  "bookingdates": {
+    "checkin": "invalid date",
+    "checkout": "invalid date"
+  },
+  "additionalneeds": 456
+}

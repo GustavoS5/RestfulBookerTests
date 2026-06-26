@@ -1,0 +1,5 @@
+INFO     restful_booker.clients.base_client:base_client.py:84 → POST /auth
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 200
+INFO     tests.conftest:conftest.py:39 Acquired session token for admin
+INFO     restful_booker.clients.base_client:base_client.py:84 → GET /booking
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 200

@@ -1,0 +1,11 @@
+{
+  "firstname": "Updated",
+  "lastname": "Smith",
+  "totalprice": 865,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-06-28",
+    "checkout": "2026-07-07"
+  },
+  "additionalneeds": "Lunch"
+}
