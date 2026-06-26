@@ -31,7 +31,7 @@ fixtures, and Allure reporting.
   - full update booking
   - partial update booking
   - delete booking
-- Query filtering by firstname
+- Query filtering by name and booking dates
 - Unauthorized booking mutations
 - Missing booking scenarios
 - Invalid payload behavior
@@ -160,7 +160,7 @@ The workflow:
 3. Runs mypy.
 4. Runs the pytest suite.
 5. Uploads Allure results.
-6. Publishes the Allure report to GitHub Pages on `main`.
+6. Publishes the Allure report to GitHub Pages after successful `main` runs.
 
 ## Restful-Booker quirks documented by tests
 
