@@ -1,0 +1,11 @@
+{
+  "firstname": "Joshua",
+  "lastname": "West",
+  "totalprice": 79,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-07-22",
+    "checkout": "2026-07-25"
+  },
+  "additionalneeds": "Late checkout"
+}

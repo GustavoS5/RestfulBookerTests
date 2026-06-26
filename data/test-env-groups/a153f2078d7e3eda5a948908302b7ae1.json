@@ -1,1 +1,1 @@
-{"id":"a153f2078d7e3eda5a948908302b7ae1","fullName":"tests.booking.test_api_crud#test_should_reject_update_booking_with_invalid_data","name":"test_should_reject_update_booking_with_invalid_data","status":"passed","testResultsByEnv":{"default":"38436e48136fb20012918210132feb34"}}
+{"id":"a153f2078d7e3eda5a948908302b7ae1","fullName":"tests.booking.test_api_crud#test_should_reject_update_booking_with_invalid_data","name":"test_should_reject_update_booking_with_invalid_data","status":"passed","testResultsByEnv":{"default":"aa4c280a3d6db6028daefbcedf45301e"}}

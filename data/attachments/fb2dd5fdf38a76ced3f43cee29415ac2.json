@@ -1,0 +1,11 @@
+{
+  "firstname": "Sean",
+  "lastname": "Smith",
+  "totalprice": 1742,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-08",
+    "checkout": "2026-07-14"
+  },
+  "additionalneeds": "Parking"
+}

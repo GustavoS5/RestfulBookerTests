@@ -1,0 +1,14 @@
+{
+  "bookingid": 2712,
+  "booking": {
+    "firstname": "Lisa",
+    "lastname": "Hall",
+    "totalprice": 1320,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-25",
+      "checkout": "2026-08-04"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

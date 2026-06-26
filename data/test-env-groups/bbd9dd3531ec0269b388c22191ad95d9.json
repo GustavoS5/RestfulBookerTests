@@ -1,1 +1,1 @@
-{"id":"bbd9dd3531ec0269b388c22191ad95d9","fullName":"tests.booking.test_api_crud#test_should_reject_unauthorized_delete_booking","name":"test_should_reject_unauthorized_delete_booking","status":"passed","testResultsByEnv":{"default":"14072090780d03a06ab8a9a2a63ba751"}}
+{"id":"bbd9dd3531ec0269b388c22191ad95d9","fullName":"tests.booking.test_api_crud#test_should_reject_unauthorized_delete_booking","name":"test_should_reject_unauthorized_delete_booking","status":"passed","testResultsByEnv":{"default":"1ea200f7df203495f7b95887835bed69"}}

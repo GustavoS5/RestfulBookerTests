@@ -1,0 +1,14 @@
+{
+  "bookingid": 2702,
+  "booking": {
+    "firstname": "Rebecca",
+    "lastname": "Barber",
+    "totalprice": 1013,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-01",
+      "checkout": "2026-07-10"
+    },
+    "additionalneeds": "Late checkout"
+  }
+}

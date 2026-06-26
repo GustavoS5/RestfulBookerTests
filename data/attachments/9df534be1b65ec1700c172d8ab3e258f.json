@@ -1,0 +1,14 @@
+{
+  "bookingid": 2716,
+  "booking": {
+    "firstname": "Joshua",
+    "lastname": "Bowers",
+    "totalprice": 1257,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-08",
+      "checkout": "2026-07-13"
+    },
+    "additionalneeds": "Extra blankets"
+  }
+}

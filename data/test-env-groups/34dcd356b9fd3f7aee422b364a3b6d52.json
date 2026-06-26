@@ -1,1 +1,1 @@
-{"id":"34dcd356b9fd3f7aee422b364a3b6d52","fullName":"tests.booking.test_api_crud#test_should_read_booking","name":"test_should_read_booking","status":"passed","testResultsByEnv":{"default":"875ab918ceab9135f6c827638ed83b95"}}
+{"id":"34dcd356b9fd3f7aee422b364a3b6d52","fullName":"tests.booking.test_api_crud#test_should_read_booking","name":"test_should_read_booking","status":"passed","testResultsByEnv":{"default":"3ce78b20f0286f62caadf9b2fedf6862"}}

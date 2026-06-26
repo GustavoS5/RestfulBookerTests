@@ -1,0 +1,14 @@
+{
+  "bookingid": 2696,
+  "booking": {
+    "firstname": "Cheryl",
+    "lastname": "Atkinson",
+    "totalprice": 1315,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-16",
+      "checkout": "2026-07-20"
+    },
+    "additionalneeds": "Parking"
+  }
+}
