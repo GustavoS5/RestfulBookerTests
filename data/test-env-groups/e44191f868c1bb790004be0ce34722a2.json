@@ -1,0 +1,1 @@
+{"id":"e44191f868c1bb790004be0ce34722a2","fullName":"tests.booking.test_api_crud#test_should_reject_create_booking_with_invalid_data","name":"test_should_reject_create_booking_with_invalid_data","status":"passed","testResultsByEnv":{"default":"1e8e6f1197f276b3a04978ed74fed799"}}

@@ -1,0 +1,1 @@
+{"id":"51faea9e8cb0a74b0609bd7741a60a0f","fullName":"tests.booking.test_api_crud#test_should_reject_for_updating_nonexisting_booking","name":"test_should_reject_for_updating_nonexisting_booking","status":"passed","testResultsByEnv":{"default":"0ccb030c3f290517a9bff01f548f49d6"}}

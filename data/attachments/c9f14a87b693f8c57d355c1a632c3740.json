@@ -1,0 +1,14 @@
+{
+  "bookingid": 3207,
+  "booking": {
+    "firstname": "Eddie",
+    "lastname": "Armstrong",
+    "totalprice": 227,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-23",
+      "checkout": "2026-07-26"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

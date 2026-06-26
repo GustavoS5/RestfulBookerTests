@@ -1,0 +1,2 @@
+INFO     restful_booker.clients.base_client:base_client.py:84 → POST /auth
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 200

@@ -1,0 +1,14 @@
+{
+  "bookingid": 3221,
+  "booking": {
+    "firstname": "Angel",
+    "lastname": "Page",
+    "totalprice": 335,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-09",
+      "checkout": "2026-07-15"
+    },
+    "additionalneeds": "Parking"
+  }
+}

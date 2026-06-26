@@ -1,0 +1,14 @@
+{
+  "bookingid": 3215,
+  "booking": {
+    "firstname": "Laura",
+    "lastname": "Blake",
+    "totalprice": 1680,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-02",
+      "checkout": "2026-07-04"
+    },
+    "additionalneeds": "Late checkout"
+  }
+}

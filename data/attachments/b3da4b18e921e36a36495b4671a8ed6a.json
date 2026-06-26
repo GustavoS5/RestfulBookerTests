@@ -1,0 +1,11 @@
+{
+  "firstname": "Nicholas",
+  "lastname": "Nielsen",
+  "totalprice": 1771,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-06-28",
+    "checkout": "2026-07-05"
+  },
+  "additionalneeds": "Breakfast"
+}

@@ -1,0 +1,14 @@
+{
+  "bookingid": 3205,
+  "booking": {
+    "firstname": "QueryTest",
+    "lastname": "Smith",
+    "totalprice": 1049,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-23",
+      "checkout": "2026-07-30"
+    },
+    "additionalneeds": "Late checkout"
+  }
+}
