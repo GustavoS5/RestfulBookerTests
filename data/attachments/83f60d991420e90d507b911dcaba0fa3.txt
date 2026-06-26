@@ -1,0 +1,9 @@
+INFO     restful_booker.clients.base_client:base_client.py:84 → POST /booking
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 200
+INFO     restful_booker.clients.base_client:base_client.py:84 → DELETE /booking/4849
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 201
+INFO     restful_booker.clients.base_client:base_client.py:84 → GET /booking/4849
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 404
+INFO     restful_booker.clients.base_client:base_client.py:84 → DELETE /booking/4849
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 405
+INFO     tests.conftest:conftest.py:70 Cleanup returned HTTP 405 for booking 4849

@@ -1,0 +1,2 @@
+INFO     restful_booker.clients.base_client:base_client.py:84 → PATCH /booking/999999999
+INFO     restful_booker.clients.base_client:base_client.py:93 ← 405

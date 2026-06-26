@@ -1,1 +1,1 @@
-{"id":"51faea9e8cb0a74b0609bd7741a60a0f","fullName":"tests.booking.test_api_crud#test_should_reject_for_updating_nonexisting_booking","name":"test_should_reject_for_updating_nonexisting_booking","status":"passed","testResultsByEnv":{"default":"d80357a8b2c89d51b853d47f0f5624f9"}}
+{"id":"51faea9e8cb0a74b0609bd7741a60a0f","fullName":"tests.booking.test_api_crud#test_should_reject_for_updating_nonexisting_booking","name":"test_should_reject_for_updating_nonexisting_booking","status":"passed","testResultsByEnv":{"default":"c784b005cf9a6695bb56ea0935f78a8d"}}

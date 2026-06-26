@@ -1,1 +1,1 @@
-{"id":"a1c9ac1fabeee7b8af7989a5034d4cb1","fullName":"tests.booking.test_api_crud#test_should_return_404_for_missing_booking","name":"test_should_return_404_for_missing_booking","status":"passed","testResultsByEnv":{"default":"11abbd0421eddf4d62c6e16f5c698b7d"}}
+{"id":"a1c9ac1fabeee7b8af7989a5034d4cb1","fullName":"tests.booking.test_api_crud#test_should_return_404_for_missing_booking","name":"test_should_return_404_for_missing_booking","status":"passed","testResultsByEnv":{"default":"4104f287ab20b0cf59553ba92e12b6ca"}}

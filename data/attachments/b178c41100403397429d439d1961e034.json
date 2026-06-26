@@ -1,0 +1,11 @@
+{
+  "firstname": "Shane",
+  "lastname": "UpdatedQueryTest",
+  "totalprice": 1899,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-06-28",
+    "checkout": "2026-07-03"
+  },
+  "additionalneeds": "Dinner"
+}

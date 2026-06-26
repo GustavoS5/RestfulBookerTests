@@ -1,0 +1,14 @@
+{
+  "bookingid": 4830,
+  "booking": {
+    "firstname": "QueryTest",
+    "lastname": "English",
+    "totalprice": 1046,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-07-14",
+      "checkout": "2026-07-18"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

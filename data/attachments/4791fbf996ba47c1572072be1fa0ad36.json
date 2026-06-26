@@ -1,0 +1,11 @@
+{
+  "firstname": "QueryTest",
+  "lastname": "QueryTest",
+  "totalprice": 1024,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-16",
+    "checkout": "2026-07-21"
+  },
+  "additionalneeds": "Parking"
+}

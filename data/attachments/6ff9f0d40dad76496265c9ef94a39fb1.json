@@ -1,0 +1,11 @@
+{
+  "firstname": "Michael",
+  "lastname": "Fry",
+  "totalprice": 186,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-08",
+    "checkout": "2026-07-16"
+  },
+  "additionalneeds": "Extra blankets"
+}

@@ -1,0 +1,11 @@
+{
+  "firstname": "Felicia",
+  "lastname": "Shah",
+  "totalprice": 1577,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-06-29",
+    "checkout": "2026-07-07"
+  },
+  "additionalneeds": "Late checkout"
+}

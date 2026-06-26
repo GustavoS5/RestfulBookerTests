@@ -1,0 +1,11 @@
+{
+  "firstname": "Updated",
+  "lastname": "Walsh",
+  "totalprice": 1162,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-22",
+    "checkout": "2026-07-24"
+  },
+  "additionalneeds": "Lunch"
+}

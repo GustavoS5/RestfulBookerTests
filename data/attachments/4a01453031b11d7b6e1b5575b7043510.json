@@ -1,0 +1,14 @@
+{
+  "bookingid": 4859,
+  "booking": {
+    "firstname": "Kent",
+    "lastname": "Silva",
+    "totalprice": 1548,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-23",
+      "checkout": "2026-07-30"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}
