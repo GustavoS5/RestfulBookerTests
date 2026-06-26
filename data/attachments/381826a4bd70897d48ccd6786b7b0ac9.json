@@ -1,0 +1,14 @@
+{
+  "bookingid": 3332,
+  "booking": {
+    "firstname": "Joshua",
+    "lastname": "Smith",
+    "totalprice": 264,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-14",
+      "checkout": "2026-07-23"
+    },
+    "additionalneeds": "Breakfast"
+  }
+}

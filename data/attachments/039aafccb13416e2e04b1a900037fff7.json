@@ -1,0 +1,14 @@
+{
+  "bookingid": 3318,
+  "booking": {
+    "firstname": "QueryTest",
+    "lastname": "Peters",
+    "totalprice": 1912,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-03",
+      "checkout": "2026-07-11"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

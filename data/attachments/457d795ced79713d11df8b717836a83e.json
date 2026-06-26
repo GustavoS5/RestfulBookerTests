@@ -1,0 +1,14 @@
+{
+  "bookingid": 3325,
+  "booking": {
+    "firstname": "Andrew",
+    "lastname": "Flowers",
+    "totalprice": 1903,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2026-06-29",
+      "checkout": "2026-06-30"
+    },
+    "additionalneeds": "Dinner"
+  }
+}

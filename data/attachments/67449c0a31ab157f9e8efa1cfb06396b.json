@@ -1,0 +1,14 @@
+{
+  "bookingid": 3321,
+  "booking": {
+    "firstname": "Michelle",
+    "lastname": "Henderson",
+    "totalprice": 78,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-06-30",
+      "checkout": "2026-07-08"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

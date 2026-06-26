@@ -1,0 +1,14 @@
+{
+  "bookingid": 3333,
+  "booking": {
+    "firstname": "Amanda",
+    "lastname": "Carter",
+    "totalprice": 1651,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-02",
+      "checkout": "2026-07-12"
+    },
+    "additionalneeds": "Extra blankets"
+  }
+}

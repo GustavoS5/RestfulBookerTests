@@ -1,1 +1,1 @@
-{"id":"37af2eec1a4b8101f255647aed2e83e2","fullName":"tests.booking.test_api_crud#test_documents_partial_update_accepts_invalid_data","name":"test_documents_partial_update_accepts_invalid_data","status":"passed","testResultsByEnv":{"default":"23a11ed43fc55738a38b3b65b1652029"}}
+{"id":"37af2eec1a4b8101f255647aed2e83e2","fullName":"tests.booking.test_api_crud#test_documents_partial_update_accepts_invalid_data","name":"test_documents_partial_update_accepts_invalid_data","status":"passed","testResultsByEnv":{"default":"10c1a051e7d87b67b38b5501ae99c4b0"}}

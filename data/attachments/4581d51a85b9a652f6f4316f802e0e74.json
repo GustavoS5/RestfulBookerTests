@@ -1,0 +1,11 @@
+{
+  "firstname": "Chloe",
+  "lastname": "Hill",
+  "totalprice": 606,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-07-14",
+    "checkout": "2026-07-15"
+  },
+  "additionalneeds": "Dinner"
+}

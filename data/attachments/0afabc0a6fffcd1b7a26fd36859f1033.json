@@ -1,0 +1,14 @@
+{
+  "bookingid": 3330,
+  "booking": {
+    "firstname": "Alicia",
+    "lastname": "Osborne",
+    "totalprice": 1088,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-06-29",
+      "checkout": "2026-07-03"
+    },
+    "additionalneeds": "Parking"
+  }
+}

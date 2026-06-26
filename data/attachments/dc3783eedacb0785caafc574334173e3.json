@@ -1,0 +1,11 @@
+{
+  "firstname": "Brandon",
+  "lastname": "Mclean",
+  "totalprice": 291,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2026-07-01",
+    "checkout": "2026-07-04"
+  },
+  "additionalneeds": "Parking"
+}

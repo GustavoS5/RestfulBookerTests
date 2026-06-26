@@ -1,0 +1,14 @@
+{
+  "bookingid": 3317,
+  "booking": {
+    "firstname": "Joshua",
+    "lastname": "Morales",
+    "totalprice": 259,
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2026-07-04",
+      "checkout": "2026-07-08"
+    },
+    "additionalneeds": "Lunch"
+  }
+}

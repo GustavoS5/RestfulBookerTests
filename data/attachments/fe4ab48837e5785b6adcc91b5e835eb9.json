@@ -1,0 +1,11 @@
+{
+  "firstname": "Updated",
+  "lastname": "Hines",
+  "totalprice": 65,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2026-07-13",
+    "checkout": "2026-07-23"
+  },
+  "additionalneeds": "Extra blankets"
+}

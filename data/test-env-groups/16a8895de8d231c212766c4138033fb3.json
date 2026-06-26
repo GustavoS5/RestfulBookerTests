@@ -1,1 +1,1 @@
-{"id":"16a8895de8d231c212766c4138033fb3","fullName":"tests.health.test_ping#test_should_ping_api","name":"test_should_ping_api","status":"passed","testResultsByEnv":{"default":"b2ef3358084898160bcc6ef91c9141b1"}}
+{"id":"16a8895de8d231c212766c4138033fb3","fullName":"tests.health.test_ping#test_should_ping_api","name":"test_should_ping_api","status":"passed","testResultsByEnv":{"default":"523a4a31c82860c656dd24ad2eb9b6e3"}}

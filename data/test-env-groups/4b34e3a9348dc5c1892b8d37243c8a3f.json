@@ -1,1 +1,1 @@
-{"id":"4b34e3a9348dc5c1892b8d37243c8a3f","fullName":"tests.booking.test_api_crud#test_should_reject_unauthorized_partial_update_booking","name":"test_should_reject_unauthorized_partial_update_booking","status":"passed","testResultsByEnv":{"default":"5554e8cf892e6648ab664f04a7a84181"}}
+{"id":"4b34e3a9348dc5c1892b8d37243c8a3f","fullName":"tests.booking.test_api_crud#test_should_reject_unauthorized_partial_update_booking","name":"test_should_reject_unauthorized_partial_update_booking","status":"passed","testResultsByEnv":{"default":"2f2d1be15a66c23572339b5bc3c429ca"}}
