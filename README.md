@@ -101,7 +101,7 @@ uv run pytest tests/booking
 Run by marker:
 
 ```bash
-uv run pytest -m smoke
+ uv run pytest -m smoke
 uv run pytest -m auth
 uv run pytest -m crud
 uv run pytest -m negative
@@ -132,6 +132,10 @@ Pre-commit runs Ruff and basic file hygiene checks. CI also runs mypy and the
 test suite.
 
 ## Allure report
+
+Published report:
+
+<https://gustavos5.github.io/RestfulBookerTests/>
 
 Generate local Allure results:
 
