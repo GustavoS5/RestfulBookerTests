@@ -1,2 +1,10 @@
 .idea
 .venv
+.env
+.agents
+plans
+__pycache__
+.pytest_cache
+.ruff_cache
+.mypy_cache
+allure-results
