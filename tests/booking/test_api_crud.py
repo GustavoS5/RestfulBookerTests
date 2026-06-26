@@ -161,8 +161,7 @@ def test_should_return_id_of_created_booking_with_query_dates(
 def test_query_after_update_reflects_changed_data(
     booking_client: BookingClient, api_request_context: APIRequestContext
 ) -> None:
-    """Create a booking, update its lastname to something unique,
-    then query by that new lastname and assert the ID appears."""
+    """Updated booking data should be reflected in query results."""
     payload = booking_payload()
     booking_id: int | None = None
 
