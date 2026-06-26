@@ -7,7 +7,7 @@ The goal of this project is to show a clean, maintainable API testing approach
 using Playwright's request client, pytest, typed Pydantic models, reusable test
 fixtures, and Allure reporting.
 
-[![Playwright Tests](https://github.com/GustavoS5/RestfulBookerTests/actions/workflows/tests.yml/badge.svg)](https://github.com/GustavoS5/RestfulBookerTestss/actions/workflows/tests.yml)
+[![Playwright Tests](https://github.com/GustavoS5/RestfulBookerTests/actions/workflows/tests.yml/badge.svg)](https://github.com/GustavoS5/RestfulBookerTests/actions/workflows/tests.yml)
 
 ## Tech stack
 
