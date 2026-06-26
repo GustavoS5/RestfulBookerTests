@@ -101,7 +101,7 @@ uv run pytest tests/booking
 Run by marker:
 
 ```bash
- uv run pytest -m smoke
+uv run pytest -m smoke
 uv run pytest -m auth
 uv run pytest -m crud
 uv run pytest -m negative
