@@ -88,6 +88,31 @@ def test_should_return_id_of_created_booking_with_query_last_name(
 
 
 @pytest.mark.crud
+def test_should_return_id_of_created_booking_with_query_first_and_last_name(
+    booking_client: BookingClient, api_request_context: APIRequestContext
+) -> None:
+    payload = booking_payload(firstname="QueryTest", lastname="QueryTest")
+    booking_id: int | None = None
+
+    try:
+        create_response = booking_client.create_booking(payload)
+        assert create_response.status == 200
+        created = CreatedBooking.model_validate(create_response.json())
+        booking_id = created.bookingid
+
+        query_response = api_request_context.get(
+            "/booking", params={"firstname": "QueryTest", "lastname": "QueryTest"}
+        )
+        assert query_response.status == 200
+
+        booking_ids = [BookingId.model_validate(item) for item in query_response.json()]
+        assert any(item.bookingid == booking_id for item in booking_ids)
+    finally:
+        if booking_id is not None:
+            booking_client.delete_booking(booking_id)
+
+
+@pytest.mark.crud
 def test_should_return_id_of_created_booking_with_query_dates(
     booking_client: BookingClient, api_request_context: APIRequestContext
 ) -> None:
@@ -127,6 +152,37 @@ def test_should_return_id_of_created_booking_with_query_dates(
                 "in date-filter search results, even though it is retrievable by ID."
             )
 
+    finally:
+        if booking_id is not None:
+            booking_client.delete_booking(booking_id)
+
+
+@pytest.mark.crud
+def test_query_after_update_reflects_changed_data(
+    booking_client: BookingClient, api_request_context: APIRequestContext
+) -> None:
+    """Create a booking, update its lastname to something unique,
+    then query by that new lastname and assert the ID appears."""
+    payload = booking_payload()
+    booking_id: int | None = None
+
+    try:
+        create_response = booking_client.create_booking(payload)
+        assert create_response.status == 200
+        created = CreatedBooking.model_validate(create_response.json())
+        booking_id = created.bookingid
+
+        updated_payload = payload.with_overrides(lastname="UpdatedQueryTest")
+        update_response = booking_client.update_booking(booking_id, updated_payload)
+        assert update_response.status == 200
+
+        query_response = api_request_context.get(
+            "/booking", params={"lastname": "UpdatedQueryTest"}
+        )
+        assert query_response.status == 200
+
+        booking_ids = [BookingId.model_validate(item) for item in query_response.json()]
+        assert any(item.bookingid == booking_id for item in booking_ids)
     finally:
         if booking_id is not None:
             booking_client.delete_booking(booking_id)
@@ -246,6 +302,7 @@ def test_should_reject_unauthorized_full_update_booking(
 @pytest.mark.negative
 def test_should_reject_unauthorized_partial_update_booking(
     api_request_context: APIRequestContext,
+    booking_client: BookingClient,
     managed_booking: ManagedBooking,
 ) -> None:
     unauthorized_client = BookingClient(api_request_context, token="invalid")
@@ -257,6 +314,14 @@ def test_should_reject_unauthorized_partial_update_booking(
     )
 
     assert response.status in {403, 405}
+
+    get_response = booking_client.get_booking(managed_booking.booking_id)
+    assert get_response.status == 200
+
+    current = Booking.model_validate(get_response.json())
+    original = Booking.model_validate(managed_booking.payload.model_dump())
+
+    assert current == original
 
 
 # ---------------------------------------------------------------------------
